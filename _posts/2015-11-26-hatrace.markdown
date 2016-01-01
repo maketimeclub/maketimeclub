@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Fancy Hats"
+date:   2015-11-26 12:00:00 -0600
+short: hatrace
+image: 1.jpg
+images:
+- 1.jpg
+- 2.jpg
+- 3.jpg
+externals:
+- https://giant.gfycat.com/TerribleAgileGypsymoth.gif
+- https://giant.gfycat.com/LastingCaringBluefintuna.gif
+tags:
+- Raspberry Pi
+- Motors
+- Costume
+---
+
+
+We made some fancy hats for the opening day at the racetrack in New Orleans. One hat has an embedded raspberry pi and small screen playing a looped gif, and the other has a small motor that spins horses around. Fancy hats!

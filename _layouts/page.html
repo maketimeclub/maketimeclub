@@ -24,16 +24,22 @@ layout: default
                     <img src="img/projects/{{../page.short}}/{{ image }}" alt=""/>
                 </li>
             {% endfor %}
+            {% for external in page.externals %}
+                <li>
+                    <img src="{{ external }}" alt=""/>
+                </li>
+            {% endfor %}
             {% for video in page.videos %}
                 <li>
                     <iframe src="{{ video }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
                 </li>
             {% endfor %}
         </ul>
     </div><!--/.imageList-->
 
     <section class="back-section">
-        <a href="index.html">Back to all projects</a>
+        <a href="{{ site.baseurl }}">Back to all projects</a>
     </section><!--/.back-section-->
 
 </article>

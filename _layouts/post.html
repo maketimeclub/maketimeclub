@@ -21,6 +21,11 @@ layout: default
     <div class="imageList">
         <h1 class="header contentList-header">Images:</h1>
         <ul>
+            {% for external in page.externals %}
+                <li>
+                    <img src="{{ external }}" alt=""/>
+                </li>
+            {% endfor %}
             {% for image in page.images %}
                 <li>
                     <img src="../../../img/projects/{{../page.short}}/{{ image }}" alt=""/>
@@ -31,6 +36,12 @@ layout: default
                     <iframe src="{{ video }}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </li>
             {% endfor %}
+            {% for embed in page.embeds %}
+                <li>
+                    {{ embed }}
+                </li>
+            {% endfor %}
+
         </ul>
     </div><!--/.imageList-->
 
