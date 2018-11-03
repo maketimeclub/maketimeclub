@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Pumpkin Board"
+date:   2018-10-31 12:00:00 -0600
+short: pumpkins
+github: https://github.com/billybrown/pumpkins
+image: table-shadow.jpg
+images:
+- table.jpg
+- table-2.jpg
+- table-3.jpg
+- makey-makey.jpg
+- screen-shot.jpg
+videos: 
+- https://player.vimeo.com/video/298761216
+- https://player.vimeo.com/video/298761287
+tags:
+- MakeyMakey
+- Arduino
+- Javascript
+---
+
+
+We made a pumpkin-based sound machine with a <a href="https://makeymakey.com/">Makey Makey</a> and a javascript <a href="http://b.illbrown.com/pumpkins/">website</a> to play the sounds.

@@ -63,6 +63,14 @@ a,
 		line-height: 60px;
 		font-size: 70px;
 	}
+
+	@media (min-width: 1200px) {
+		font-size: 60px;
+	}
+
+	@media (min-width: 1500px) {
+		font-size: 70px;
+	}
 }
 
 

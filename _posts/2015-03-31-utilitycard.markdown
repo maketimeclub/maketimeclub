@@ -4,7 +4,7 @@ title:  "Utility Cards"
 date:   2015-03-31 12:00:00 -0600
 short: utilitycard
 github: https://github.com/watsonboyett/UtilityCards
-image: UtilityCard_teaser.jpg
+image: UtilityCard_front.jpg
 images:
 - UtilityCard_teaser.jpg
 - UtilityCard_teaser2.jpg

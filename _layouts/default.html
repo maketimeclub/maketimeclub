@@ -28,12 +28,19 @@
 
     {% include header.html %}
 
-    <main class="main constrained" role="main">
+    <main class="main" role="main">
       {{ content }}
     </main>
 
     {% include footer.html %}
 
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".main").fitVids();
+      });
+    </script>
   </body>
 
 </html>

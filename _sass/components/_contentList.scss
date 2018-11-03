@@ -4,11 +4,48 @@
 
 
 .contentList {
+  max-width: $page-max-width + 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  @media (min-width: $medium-bp) {
+    padding-right: 100px;
+    padding-left: 100px;
+    max-width: $page-max-width + 200px;
+  	max-width: none;
+  }
 
 	ol {
 		margin: 0;
 		padding: 0;
 		list-style: none;
+		
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+
+	> ol > li {
+		@media (min-width: $medium-bp) {
+			float: left;
+			width: 50%;
+		}
+
+		&:nth-child(odd) {
+      @media (min-width: $medium-bp) {
+			 padding-right: 23px;
+       }
+		}
+
+		&:nth-child(even) {
+      @media (min-width: $medium-bp) {
+			 padding-left: 23px;
+       }
+		}
 	}
 }
 
@@ -23,5 +60,14 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
+	}
+
+  li {
+    margin-bottom: 10px;
+  }
+
+	img {
+		width: 100%;
+    display: block;
 	}
 }
