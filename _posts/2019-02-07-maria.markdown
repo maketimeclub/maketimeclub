@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Maria"
+date:   2019-02-07 12:00:00 -0600
+short: maria
+github: https://github.com/maketimeclub/maria
+image: thumbnail.jpg
+images:
+- browser-screenshot.png
+- browser-screenshot-2.png
+- maria.gif
+tags:
+- Music
+- Data
+- Javascript
+---
+
+
+We made a song generator from publicly available weather data in our three respective cities. The songs update daily based on the next days forecast and are available at <a href="https://maketimeclub.github.io/maria/">this website</a>.
