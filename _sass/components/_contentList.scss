@@ -13,12 +13,9 @@
   @media (min-width: $medium-bp) {
     padding-right: 100px;
     padding-left: 100px;
-    max-width: $page-max-width + 200px;
+    max-width: $page-max-width + 700px;
   }
 
-  @media (min-width: $large-bp) {
-    max-width: $page-max-width + 500px;
-  }
 
 	ol {
 		margin: 0;
