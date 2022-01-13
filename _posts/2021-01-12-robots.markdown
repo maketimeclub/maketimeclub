@@ -9,6 +9,7 @@ images:
 - robots2.jpg
 - robots1.gif
 - robots1.jpg
+- robots3.jpg
 tags:
 - Robots
 - Otto DIY
