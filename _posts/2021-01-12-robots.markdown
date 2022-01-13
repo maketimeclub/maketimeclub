@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Robots"
+date:   2021-01-12 12:00:00 -0600
+short: robots
+image: thumbnail.jpg
+images:
+- robots2.gif
+- robots2.jpg
+- robots1.gif
+- robots1.jpg
+tags:
+- Robots
+- Otto DIY
+- Arduino
+---
+
+
+We made robots using <a href="https://www.ottodiy.com/">Otto</a>, an open source modular robot project.
